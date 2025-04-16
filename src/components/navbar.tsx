@@ -17,7 +17,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <NavigationMenu>
+    <NavigationMenu className="h-24 ms-2">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger className="p-6">
@@ -60,13 +60,12 @@ export default function Navbar() {
               <ListItem href="/about" title="About Us">
                 Learn more about us and our found Smith Baggett.
               </ListItem>
-              <ListItem href="/contact" title="Contact Us">
+              <ListItem href="#" title="Contact Us">
                 Want to reach out? Contact Us.
               </ListItem>
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-       
         <NavigationMenuItem>
           <div>
             <NavigationMenuLink
@@ -74,6 +73,16 @@ export default function Navbar() {
               className={navigationMenuTriggerStyle()}
             >
               Wholesale
+            </NavigationMenuLink>
+          </div>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <div>
+            <NavigationMenuLink
+              href="/blog"
+              className={navigationMenuTriggerStyle()}
+            >
+              Blog
             </NavigationMenuLink>
           </div>
         </NavigationMenuItem>

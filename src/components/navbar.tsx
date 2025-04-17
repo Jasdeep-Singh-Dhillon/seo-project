@@ -54,14 +54,14 @@ export default function Navbar() {
                   </Link>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/products" title="Products">
-                Browse through our products.
+              <ListItem href="/products" title="FlaminGO Charger One Pack">
+                Checkout FlaminGO pre-charged charger
               </ListItem>
-              <ListItem href="/about" title="About Us">
-                Learn more about us and our found Smith Baggett.
+              <ListItem href="#" title="FlaminGO Charger Three Pack">
+                Three Pack FlaminGO pre-charged charger
               </ListItem>
-              <ListItem href="#" title="Contact Us">
-                Want to reach out? Contact Us.
+              <ListItem href="#" title="FlaminGO Charger Five Pack">
+                Five Pack FlaminGO pre-charged charger
               </ListItem>
             </ul>
           </NavigationMenuContent>
@@ -83,6 +83,16 @@ export default function Navbar() {
               className={navigationMenuTriggerStyle()}
             >
               Blog
+            </NavigationMenuLink>
+          </div>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <div>
+            <NavigationMenuLink
+              href="/about"
+              className={navigationMenuTriggerStyle()}
+            >
+              About
             </NavigationMenuLink>
           </div>
         </NavigationMenuItem>

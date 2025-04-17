@@ -24,18 +24,18 @@ export default function Home() {
           <Image
             width={1700}
             height={586}
-            src={"/images/hero_desktop.png"}
+            src={"/images/flamingo_charger_development.jpg"}
             alt={"Flock of Flamingo"}
             className="md:block hidden"
           />
           <Image
             width={1024}
             height={600}
-            src={"/images/hero_mobile.png"}
+            src={"/images/flamingo_charger_development.jpg"}
             alt={"Flock of Flamingo"}
             className="block md:hidden"
           />
-          <span className="absolute top-1/2 left-1/3 right-1/3 text-4xl font-extrabold text-white text-center">
+          <span className="absolute top-1/2 left-1/3 right-1/3 text-4xl font-extrabold text-rose-700 text-center drop-shadow-2xl drop-shadow-rose-400">
             Development Blog
           </span>
         </div>

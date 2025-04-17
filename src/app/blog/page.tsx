@@ -22,18 +22,18 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <div className="w-full m-auto relative">
           <Image
-            width={1700}
-            height={586}
+            width={800}
+            height={400}
             src={"/images/flamingo_charger_development.webp"}
-            alt={"Flock of Flamingo"}
-            className="md:block hidden"
+            alt={"Development of FlaminGO Pink Portable Charger"}
+            className="md:block hidden m-auto"
           />
           <Image
-            width={1024}
-            height={600}
+            width={800}
+            height={400}
             src={"/images/flamingo_charger_development.webp"}
-            alt={"Flock of Flamingo"}
-            className="block md:hidden"
+            alt={"Development of FlaminGO Pink Portable Charger"}
+            className="block md:hidden m-auto"
           />
           <span className="absolute top-1/2 left-1/3 right-1/3 text-4xl font-extrabold text-rose-700 text-center drop-shadow-2xl drop-shadow-rose-400">
             Development Blog

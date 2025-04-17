@@ -17,7 +17,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <NavigationMenu className="h-24 ms-2">
+    <NavigationMenu className="h-24 ms-2 bg-white">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger className="p-6">

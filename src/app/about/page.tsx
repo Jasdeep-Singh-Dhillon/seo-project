@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Metadata } from "next";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -15,8 +16,8 @@ export default function Home() {
         <div className="w-full m-auto relative">
           <Image
             width={1700}
-            height={586}
-            src={"/images/smith_bagget_founder_at_shark_tank_desktop.png"}
+            height={400}
+            src={"/images/smith_bagget_founder_at_shark_tank_desktop.jpg"}
             alt={"Smith Baggett FlaminGO Founder at Shark Tank"}
             className="md:block hidden"
           />
@@ -27,7 +28,7 @@ export default function Home() {
             alt={"Smith Baggett FlaminGO Founder at Shark Tank"}
             className="block md:hidden"
           />
-          <span className="absolute top-1/2 left-1/3 right-1/3 text-4xl font-extrabold text-white">
+          <span className="absolute top-1/2 left-1/3 right-1/3 text-6xl font-extrabold text-white">
             About Us
           </span>
         </div>
@@ -89,7 +90,7 @@ export default function Home() {
               </CardTitle>
             </CardHeader>
             <CardContent className="my-2">
-              {`In February 2025, Baggett's entrepreneurial efforts culminated in a significant milestone: an appearance on ABC's "Shark Tank." Dressed in his signature cowboy attire, he presented the FlaminGO Charger to the panel of investors. His pitch captivated the sharks, leading to an investment of $100,000 from Barbara Corcoran for a 22% equity stake. Corcoran praised Baggett's business acumen and enthusiasm, stating, "He's built a great business and has the grit, hustle, and enthusiasm it takes to turn flaminGO into a household name." `}
+              {`In February 2025, Baggett's entrepreneurial efforts culminated in a significant milestone: an appearance on ABC's "Shark Tank." Dressed in his signature cowboy attire, he presented the`} <Link href={'/'} className="underline">FlaminGO Charger</Link> {`to the panel of investors. His pitch captivated the sharks, leading to an investment of $100,000 from Barbara Corcoran for a 22% equity stake. Corcoran praised Baggett's business acumen and enthusiasm, stating, "He's built a great business and has the grit, hustle, and enthusiasm it takes to turn flaminGO into a household name." `}
             </CardContent>
           </Card>
           <Card className="px-6 m-4">

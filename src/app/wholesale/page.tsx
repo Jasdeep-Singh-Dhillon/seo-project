@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Link from "next/link";
 
 import {
   Accordion,
@@ -258,7 +259,7 @@ export default function Home() {
               </CardTitle>
             </CardHeader>
             <CardContent className="my-2">
-              {`Integrating FlaminGO Chargers into your product offerings not only provides a valuable service to your customers but also strengthens your brand's presence in a competitive market. With customization options, proven demand, and a product that combines safety with versatility, FlaminGO Chargers present a compelling wholesale opportunity for businesses aiming to enhance their customer experience and brand recognition.`}
+              Integrating <Link href={"/"} className="underline">FlaminGO Chargers</Link> into your product offerings not only provides a valuable service to your customers but also strengthens your brand&apos;s presence in a competitive market. With customization options, proven demand, and a product that combines safety with versatility, FlaminGO Chargers present a compelling wholesale opportunity for businesses aiming to enhance their customer experience and brand recognition.
             </CardContent>
           </Card>
         </div>

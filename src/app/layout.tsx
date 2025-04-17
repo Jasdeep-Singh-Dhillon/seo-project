@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-Y00QL81C9H"></Script>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16946805664"></Script>
         <Script src="/google-analytics.js"></Script>
 
         <Navbar />

@@ -38,7 +38,7 @@ export default function Home() {
             alt={"Warehouse of flamingo chargers for wholesale"}
             className="block md:hidden"
           />
-          <span className="absolute top-1/2 left-1/2 right-1/3 text-4xl font-extrabold text-white">
+          <span className="absolute top-1/2 left-1/2 right-1/3 text-4xl font-extrabold text-white text-center drop-shadow-2xl drop-shadow-rose-500">
             Wholesale
           </span>
         </div>

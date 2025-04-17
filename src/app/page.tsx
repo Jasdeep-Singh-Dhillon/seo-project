@@ -40,7 +40,7 @@ export default function Home() {
             alt={"Person putting Flamingo Charger in their bag"}
             className="block md:hidden"
           />
-          <span className="text-rose-500 absolute top-2/4 left-16 text-6xl font-extrabold drop-shadow-rose-200 drop-shadow-2xl drop">
+          <span className="text-rose-500 absolute top-2/4 left-16 text-6xl font-extrabold drop-shadow-rose-200 drop-shadow-2xl">
             Be in Charge!
           </span>
         </div>

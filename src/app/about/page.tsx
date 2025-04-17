@@ -28,7 +28,7 @@ export default function Home() {
             alt={"Smith Baggett FlaminGO Founder at Shark Tank"}
             className="block md:hidden"
           />
-          <span className="absolute top-1/2 left-1/3 right-1/3 text-6xl font-extrabold text-white">
+          <span className="absolute top-1/2 left-1/3 right-1/3 text-6xl font-extrabold text-white drop-shadow-2xl drop-shadow-white text-center">
             About Us
           </span>
         </div>

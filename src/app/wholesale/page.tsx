@@ -24,18 +24,20 @@ export default function Home() {
           <Image
             width={1700}
             height={586}
-            src={"/images/hero_desktop.png"}
-            alt={"Flock of Flamingo"}
+            src={
+              "/images/warehouse_of_flamingo_chargers_for_wholesale_desktop.png"
+            }
+            alt={"Warehouse of flamingo chargers for wholesale"}
             className="md:block hidden"
           />
           <Image
             width={1024}
             height={600}
-            src={"/images/hero_mobile.png"}
-            alt={"Flock of Flamingo"}
+            src={"/images/warehouse_of_flamingo_chargers_for_wholesale.png"}
+            alt={"Warehouse of flamingo chargers for wholesale"}
             className="block md:hidden"
           />
-          <span className="absolute top-1/2 left-1/3 right-1/3 text-4xl font-extrabold text-white">
+          <span className="absolute top-1/2 left-1/2 right-1/3 text-4xl font-extrabold text-white">
             Wholesale
           </span>
         </div>
@@ -180,7 +182,7 @@ export default function Home() {
             <CardContent className="my-2">
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="1">
-                  <span className="font-semibold">Safety Assurance:</span>
+                  <AccordionTrigger className="font-semibold">Safety Assurance:</AccordionTrigger>
                   <AccordionContent>
                     {` FlaminGO Chargers are lab-certified for safety, providing businesses and consumers with confidence in the product's quality and reliability.`}
                   </AccordionContent>

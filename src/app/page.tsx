@@ -29,15 +29,15 @@ export default function Home() {
           <Image
             width={1700}
             height={586}
-            src={"/images/hero_desktop.png"}
-            alt={"Flock of Flamingo"}
+            src={"/images/portable_flamingo_charger.png"}
+            alt={"Person putting Flamingo Charger in their bag"}
             className="md:block hidden"
           />
           <Image
             width={1024}
             height={600}
-            src={"/images/hero_mobile.png"}
-            alt={"Flock of Flamingo"}
+            src={"/images/portable_flamingo_charger_mobile.png"}
+            alt={"Person putting Flamingo Charger in their bag"}
             className="block md:hidden"
           />
           <span className="text-rose-500 absolute top-2/4 left-16 text-6xl font-extrabold drop-shadow-zinc-700">

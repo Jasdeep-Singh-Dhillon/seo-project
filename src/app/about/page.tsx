@@ -16,15 +16,15 @@ export default function Home() {
           <Image
             width={1700}
             height={586}
-            src={"/images/hero_desktop.png"}
-            alt={"Flock of Flamingo"}
+            src={"/images/smith_bagget_founder_at_shark_tank_desktop.png"}
+            alt={"Smith Baggett FlaminGO Founder at Shark Tank"}
             className="md:block hidden"
           />
           <Image
             width={1024}
             height={600}
-            src={"/images/hero_mobile.png"}
-            alt={"Flock of Flamingo"}
+            src={"/images/smith_bagget_founder_at_shark_tank.jpg"}
+            alt={"Smith Baggett FlaminGO Founder at Shark Tank"}
             className="block md:hidden"
           />
           <span className="absolute top-1/2 left-1/3 right-1/3 text-4xl font-extrabold text-white">

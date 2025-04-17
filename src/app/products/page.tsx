@@ -1,11 +1,6 @@
 import Image from "next/image";
 import type { Metadata } from "next";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const metadata: Metadata = {
   title: "FlaminGO Charger One-Pack | Shark Tank",
@@ -21,15 +16,15 @@ export default function Home() {
           <Image
             width={1700}
             height={586}
-            src={"/images/hero_desktop.png"}
-            alt={"Flock of Flamingo"}
+            src={"/images/pink_flamingo_portable_charger_desktop.jpeg"}
+            alt={"Pink FlaminGO Portable Portable Charger"}
             className="md:block hidden"
           />
           <Image
             width={1024}
             height={600}
-            src={"/images/hero_mobile.png"}
-            alt={"Flock of Flamingo"}
+            src={"/images/pink_flamingo_portable_charger.jpeg"}
+            alt={"Pink FlaminGO Charger"}
             className="block md:hidden"
           />
           <span className="absolute top-1/2 left-1/3 right-1/3 text-4xl font-extrabold text-white text-center">
@@ -37,7 +32,7 @@ export default function Home() {
           </span>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <Card className="px-6 m-4 justify-center">
+          <Card className="px-6 m-4 justify-center col-span-full">
             <CardHeader>
               <CardTitle>
                 <h1 className="font-bold text-4xl">

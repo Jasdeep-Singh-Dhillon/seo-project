@@ -26,7 +26,7 @@ export default function Home() {
             width={1700}
             height={586}
             src={
-              "/images/warehouse_of_flamingo_chargers_for_wholesale_desktop.png"
+              "/images/warehouse_of_flamingo_chargers_for_wholesale_desktop.webp"
             }
             alt={"Warehouse of flamingo chargers for wholesale"}
             className="md:block hidden"
@@ -34,7 +34,7 @@ export default function Home() {
           <Image
             width={1024}
             height={600}
-            src={"/images/warehouse_of_flamingo_chargers_for_wholesale.png"}
+            src={"/images/warehouse_of_flamingo_chargers_for_wholesale.webp"}
             alt={"Warehouse of flamingo chargers for wholesale"}
             className="block md:hidden"
           />

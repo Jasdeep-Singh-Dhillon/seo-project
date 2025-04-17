@@ -16,14 +16,14 @@ export default function Home() {
           <Image
             width={1700}
             height={586}
-            src={"/images/pink_flamingo_portable_charger_desktop.jpeg"}
+            src={"/images/pink_flamingo_portable_charger_desktop.webp"}
             alt={"Pink FlaminGO Portable Portable Charger"}
             className="md:block hidden"
           />
           <Image
             width={1024}
             height={600}
-            src={"/images/pink_flamingo_portable_charger.jpeg"}
+            src={"/images/pink_flamingo_portable_charger.webp"}
             alt={"Pink FlaminGO Charger"}
             className="block md:hidden"
           />

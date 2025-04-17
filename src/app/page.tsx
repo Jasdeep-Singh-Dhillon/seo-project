@@ -29,14 +29,14 @@ export default function Home() {
           <Image
             width={1700}
             height={586}
-            src={"/images/portable_flamingo_charger.png"}
+            src={"/images/portable_flamingo_charger.webp"}
             alt={"Person putting Flamingo Charger in their bag"}
             className="md:block hidden"
           />
           <Image
             width={1024}
             height={600}
-            src={"/images/portable_flamingo_charger_mobile.png"}
+            src={"/images/portable_flamingo_charger_mobile.webp"}
             alt={"Person putting Flamingo Charger in their bag"}
             className="block md:hidden"
           />

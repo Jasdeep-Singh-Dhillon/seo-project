@@ -17,14 +17,14 @@ export default function Home() {
           <Image
             width={1700}
             height={400}
-            src={"/images/smith_bagget_founder_at_shark_tank_desktop.jpg"}
+            src={"/images/smith_bagget_founder_at_shark_tank_desktop.webp"}
             alt={"Smith Baggett FlaminGO Founder at Shark Tank"}
             className="md:block hidden"
           />
           <Image
             width={1024}
             height={600}
-            src={"/images/smith_bagget_founder_at_shark_tank.jpg"}
+            src={"/images/smith_bagget_founder_at_shark_tank.webp"}
             alt={"Smith Baggett FlaminGO Founder at Shark Tank"}
             className="block md:hidden"
           />

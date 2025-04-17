@@ -24,14 +24,14 @@ export default function Home() {
           <Image
             width={1700}
             height={586}
-            src={"/images/flamingo_charger_development.jpg"}
+            src={"/images/flamingo_charger_development.webp"}
             alt={"Flock of Flamingo"}
             className="md:block hidden"
           />
           <Image
             width={1024}
             height={600}
-            src={"/images/flamingo_charger_development.jpg"}
+            src={"/images/flamingo_charger_development.webp"}
             alt={"Flock of Flamingo"}
             className="block md:hidden"
           />
